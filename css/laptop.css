@@ -5,7 +5,35 @@
     /* header  */
     header {
         padding-inline: 32px;
+    }
 
+    /* section 1 - დიზაინისგან განსხვავებული, ვერ მიდიოდა ტაბლეტის რეზოლუციამდე სწორად  */
+
+    .cover {
+        padding-inline: 66px;
+    }
+
+    /* section 2  */
+
+    .section2 {
+        padding: 32px;
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+
+    .section_picdiv {
+        flex: 1 1 960px;
+    }
+
+    .section2_text {
+        flex-direction: row;
+        width: 960px;
+        column-gap: 80px;
+    }
+
+    .left_text,
+    .right_text {
+        width: 100%;
     }
 
 

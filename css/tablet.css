@@ -6,6 +6,34 @@
     header {
         padding-inline: 24px;
     }
+
+    /* section 1  */
+
+    .cover {
+        padding-inline: 85px;
+        height: 320px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    /* section 2  */
+
+    .section2 {
+        padding: 24px;
+    }
+
+    .section2_text {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    h3,
+    .main_text {
+        text-align: center;
+    }
 }
 
 
@@ -24,4 +52,6 @@
     .burger {
         display: block;
     }
+
+
 }

@@ -62,3 +62,91 @@ header {
     border-radius: 50%;
     background-color: #524A44;
 }
+
+/* section 1  */
+.cover {
+    padding-inline: 274px;
+    margin-top: 96px;
+    height: 520px;
+    background-image: url(../images/cover-1440.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+    text-shadow: 3px 3px 4px #FFFFFF;
+}
+
+.cover_button {
+    padding: 12px 31px;
+    border-radius: 32px;
+    background-color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: -0.44px;
+    color: #F3F3F3;
+    box-shadow: 0 4px 4px #FFFFFF;
+}
+
+/* section 2  */
+.section2 {
+    padding: 60px 150px;
+    background-color: #000000;
+    display: flex;
+    column-gap: 160px;
+    align-items: center;
+}
+
+.section_picdiv {
+    display: flex;
+    flex: 1 1 490px;
+    height: 400px;
+}
+
+.section_pic {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+.section2_text {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.main_text {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #FFFFFF;
+}
