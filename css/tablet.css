@@ -34,6 +34,26 @@
     .main_text {
         text-align: center;
     }
+
+    /* section 3  */
+
+    .card_section {
+        padding: 40px 24px;
+    }
+
+    .cards {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .individual_cards {
+        align-items: center;
+    }
+
+    .individual_cards {
+        text-align: center;
+    }
+
 }
 
 

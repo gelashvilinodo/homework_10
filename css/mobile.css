@@ -24,4 +24,10 @@
         font-size: 14px;
         line-height: 22px;
     }
+
+    /* section 3  */
+
+    .card_section {
+        padding-block: 32px;
+    }
 }
