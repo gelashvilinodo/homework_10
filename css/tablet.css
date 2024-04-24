@@ -1,0 +1,27 @@
+/* 745px */
+
+@media (max-width: 745px) {
+
+    /* header  */
+    header {
+        padding-inline: 24px;
+    }
+}
+
+
+/* 625px */
+@media (max-width: 625px) {
+    /* header  */
+
+    nav {
+        display: none;
+    }
+
+    .header_button {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}
