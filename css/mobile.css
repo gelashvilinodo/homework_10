@@ -35,10 +35,9 @@
 
     .footer {
         padding: 32px 24px;
-        align-content: center;
     }
 
-    .footer_logo{
+    .footer_logo {
         margin-inline: auto;
     }
 
@@ -47,15 +46,17 @@
     }
 
     .footer_div {
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 102.33px;
     }
 
-    h5{
+    h5 {
         text-align: center;
     }
 
-    li{
+    li {
         text-align: center;
     }
 }

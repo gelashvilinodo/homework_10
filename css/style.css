@@ -19,6 +19,7 @@ header {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
     background-color: #FFFFFF;
 }
 
@@ -29,11 +30,24 @@ header {
     line-height: 32px;
     letter-spacing: -0.44px;
     color: #000000;
+    transition: all .3s;
+}
+
+.logo_link:hover {
+    transform: scale(1.05);
 }
 
 .header_ul {
     display: flex;
     column-gap: 36px;
+}
+
+li {
+    transition: all .2s;
+}
+
+li:hover {
+    transform: scale(1.2);
 }
 
 .nav_text {
@@ -55,6 +69,14 @@ header {
     line-height: 24px;
     letter-spacing: -0.44px;
     color: #FFFFFF;
+    transition: all .3s;
+}
+
+.header_button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 3px black,
+        1px 1px 2px white inset;
 }
 
 .burger {
@@ -100,6 +122,12 @@ h2 {
     letter-spacing: -0.44px;
     color: #F3F3F3;
     box-shadow: 0 4px 4px #FFFFFF;
+    transition: all .4s;
+}
+
+.cover_button:hover {
+    transform: scale(1.2);
+    box-shadow: none;
 }
 
 /* section 2  */
@@ -121,6 +149,12 @@ h2 {
     width: 100%;
     object-fit: cover;
     border-radius: 32px;
+    transition: all .5s;
+}
+
+.section_pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px gray;
 }
 
 .section2_text {
@@ -190,6 +224,13 @@ h4 {
     line-height: 24px;
     letter-spacing: 0.1px;
     color: #000000;
+    transition: all .3s;
+}
+
+.individual_cards:hover {
+    transform: scale(1.05);
+    border-top-left-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 /* footer  */
@@ -209,6 +250,11 @@ footer {
     line-height: 26.41px;
     letter-spacing: -0.44px;
     color: #FFFFFF;
+    transition: all .2s;
+}
+
+.footer_logo:hover {
+    transform: scale(1.1);
 }
 
 .footer_divss {
@@ -216,17 +262,7 @@ footer {
     column-gap: 80px;
 }
 
-.footer_div {
-    /* background-color: aqua; */
-}
-
-.div2 {
-    width: 60px;
-}
-
-.div3 {
-    width: 69px;
-}
+.footer_div {}
 
 h5 {
     font-family: "Inter", sans-serif;
