@@ -54,6 +54,15 @@
         text-align: center;
     }
 
+    /* footer  */
+
+    footer {
+        flex-direction: column;
+        row-gap: 32px;
+        padding-block: 32px;
+        padding-left: 24px;
+    }
+
 }
 
 
@@ -61,7 +70,7 @@
 @media (max-width: 625px) {
     /* header  */
 
-    nav {
+    .header_nav {
         display: none;
     }
 
@@ -72,6 +81,5 @@
     .burger {
         display: block;
     }
-
 
 }
